@@ -16,6 +16,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml.Linq;
+using WpfApp1;
 
 namespace WpfApp3
 {
@@ -102,7 +103,10 @@ namespace WpfApp3
 
         private void DropByStaff_Click(object sender, RoutedEventArgs e)
         {
-            DropUsersWithRole(2);
+            //DropUsersWithRole(2);
+            Window1 window1 = new();
+            window1.Show();
+
         }
     }
 }
